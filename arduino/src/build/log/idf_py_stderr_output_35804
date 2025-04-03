@@ -1,0 +1,22 @@
+ESP Insights Project commit: a2087f2-dirty
+ESP RainMaker Project commit: a2087f2-dirty
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp: In member function 'bool ETHClass::beginSPI(eth_phy_type_t, int32_t, uint8_t*, int, int, int, SPIClass*, int, int, int, spi_host_device_t, uint8_t)':
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp:573:20: warning: unused variable 'eth_mac_config' [-Wunused-variable]
+  573 |   eth_mac_config_t eth_mac_config = ETH_MAC_DEFAULT_CONFIG();
+      |                    ^~~~~~~~~~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp:574:20: warning: variable 'phy_config' set but not used [-Wunused-but-set-variable]
+  574 |   eth_phy_config_t phy_config = ETH_PHY_DEFAULT_CONFIG();
+      |                    ^~~~~~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp: At global scope:
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp:364:18: warning: 'esp_err_t _eth_spi_deinit(void*)' defined but not used [-Wunused-function]
+  364 | static esp_err_t _eth_spi_deinit(void *ctx) {
+      |                  ^~~~~~~~~~~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp:360:14: warning: 'void* _eth_spi_init(const void*)' defined but not used [-Wunused-function]
+  360 | static void *_eth_spi_init(const void *ctx) {
+      |              ^~~~~~~~~~~~~
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld: esp-idf/espressif__arduino-esp32/libespressif__arduino-esp32.a(WiFiGeneric.cpp.obj): in function `wifiLowLevelInit(bool)':
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/WiFi/src/WiFiGeneric.cpp:248: undefined reference to `esp_netif_create_default_wifi_ap'
+collect2: error: ld returned 1 exit status
+make[2]: *** [main.elf] Error 1
+make[1]: *** [CMakeFiles/main.elf.dir/all] Error 2
+make: *** [all] Error 2

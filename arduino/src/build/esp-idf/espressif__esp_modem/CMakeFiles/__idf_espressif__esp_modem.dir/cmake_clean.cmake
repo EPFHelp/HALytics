@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_api.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_api.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_api_target.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_api_target.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_c_api.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_c_api.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_cmux.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_cmux.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_command_library.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_command_library.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_dce.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_dce.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_dte.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_dte.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_factory.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_factory.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_modules.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_modules.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_netif.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_netif.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_primitives_freertos.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_primitives_freertos.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_term_fs.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_term_fs.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_term_uart.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_term_uart.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_uart.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_uart.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_vfs_socket_creator.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_vfs_socket_creator.cpp.obj.d"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_vfs_uart_creator.cpp.obj"
+  "CMakeFiles/__idf_espressif__esp_modem.dir/src/esp_modem_vfs_uart_creator.cpp.obj.d"
+  "libespressif__esp_modem.a"
+  "libespressif__esp_modem.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/__idf_espressif__esp_modem.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

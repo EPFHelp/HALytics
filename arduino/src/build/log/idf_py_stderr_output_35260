@@ -1,0 +1,10 @@
+make[2]: *** No rule to make target `/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/partitions.csv', needed by `partition_table/partition-table.bin'.  Stop.
+make[1]: *** [esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMake Error at /Users/rodriguedeguerre/esp/esp-idf/tools/cmake/scripts/fail.cmake:3 (message):
+  Failing the build (see errors on lines above)
+
+
+make[2]: *** [esp-idf/partition_table/CMakeFiles/partition-table] Error 1
+make[1]: *** [esp-idf/partition_table/CMakeFiles/partition-table.dir/all] Error 2
+make: *** [all] Error 2

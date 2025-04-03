@@ -1,17 +1,21 @@
-#include <ArduinoWebsockets.h>
+#include <WebSocketsClient.h>
+// #include <WiFiClientSecure.h>
 #include <WiFi.h>
 #include "secrets.h"
 
 /**
  * List of pins used by the pressure & force sensors
  */
-#define FORCE_SENSOR_PIN 35 // ESP32 pin GIOP35 (ADC1): 
+// #define FORCE_SENSOR_PIN 35 // ESP32 pin GIOP35 (ADC1): 
 
 /**
  * Wifi constants -- from secrets.h (.env like)
  */
 const char* ssid = WIFI_SSID;
 const char* password = WIFI_PASSWORD; 
+
+WebSocketsClient client;
+// WiFiClientSecure sslClient;
 
 /**
  * @deprecated -- The server URL for HTTP requests. Not used for Websocket conections
@@ -119,34 +123,38 @@ SSL-Session:
 ---
 */
 
-using namespace websockets;
+// using namespace websockets;
 
-WebsocketsClient client;
 
-void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {}
-
-void onMessageCallback(WebsocketsMessage message) 
+void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) 
 {
   Serial.print("Got Message: ");
-  Serial.println(message.data());
-}
-
-void onEventsCallback(WebsocketsEvent event, String data) 
-{
-  if(event == WebsocketsEvent::ConnectionOpened) {
-      Serial.println("Connnection Opened");
-  } else if(event == WebsocketsEvent::ConnectionClosed) {
-      Serial.println("Connnection Closed");
-  } else if(event == WebsocketsEvent::GotPing) {
-      Serial.println("Got a Ping!");
-  } else if(event == WebsocketsEvent::GotPong) {
-      Serial.println("Got a Pong!");
+  switch(type) {
+    case WStype_CONNECTED:
+        Serial.printf("[WSc] Connected to server");
+        break;
+    case WStype_DISCONNECTED:
+        Serial.printf("[WSc] Disconnected!");
+        break;
+    case WStype_TEXT:
+        Serial.printf("[WSc] Got text: %s\n", payload);
+        break;
+    case WStype_BIN:
+        Serial.printf("[WSc] Got binary data of length: %d\n", length);
+        break;
+    default:
+      Serial.printf("[WSc] Default case.\n");
+      break;
   }
 }
 
 void setup() {
     Serial.begin(115200);
+    while(!Serial);
+    delay(1000);
+    Serial.println("BOOT OK");
     // Connect to wifi
+    WiFi.mode(WIFI_STA);
     WiFi.begin(ssid, password);
     Serial.println("Connecting");
     // Wait some time to connect to wifi
@@ -155,52 +163,44 @@ void setup() {
         delay(1000);
     }
     Serial.println("");
-    Serial.print("Connected to WiFi network with IP Address: ");
+    Serial.println("Connected to WiFi network with IP Address: ");
     Serial.println(WiFi.localIP());
 
-    // Run callback when messages are received
-    client.onMessage(onMessageCallback);
-    // Run callback when events are occuring
-    client.onEvent(onEventsCallback);
+    // sslClient.setCACert(ngrok_ca_cert);
+    // client.setClientSSL(&sslClient);
+    // client.setCACert(ngrok_ca_cert);
 
-    // Before connecting, set the ssl fingerprint of the server
-    client.setCACert(ngrok_ca_cert);
-    // client.setInsecure();
+    const int port = 443;
+    const char* path = "/";
+    client.beginSSL(websockets_connection_string, port, path, "arduino");
+    client.onEvent(webSocketEvent);
 
-    // Connect to server
-    client.connect(websockets_connection_string);
-    // Send a message
-    client.send("Hello Server");
-  
-    // webSocket.begin("your.server.ip", 8080, "/");
-    // webSocket.onEvent(webSocketEvent);
+    client.sendTXT("Hello Server");
+
+    Serial.println("Connected to Webserver! ");
 
     // Send a ping
-    client.ping();
+    client.sendPing();
 }
 
 void loop() {
-    int analogReading = analogRead(FORCE_SENSOR_PIN);
+    // int analogReading = analogRead(FORCE_SENSOR_PIN);
 
-    Serial.print("The force sensor value = ");
-    Serial.print(); // print the raw analog reading
-
-    if (analogReading < 10)       // from 0 to 9
-      Serial.println(" -> no pressure");
-    else if (analogReading < 200) // from 10 to 199
-      Serial.println(" -> light touch");
-    else if (analogReading < 500) // from 200 to 499
-      Serial.println(" -> light squeeze");
-    else if (analogReading < 800) // from 500 to 799
-      Serial.println(" -> medium squeeze");
-    else // from 800 to 1023
-      Serial.println(" -> big squeeze");
+    Serial.println("The force sensor value = ");
+    // if (analogReading < 10)       // from 0 to 9
+    //   Serial.println(" -> no pressure");
+    // else if (analogReading < 200) // from 10 to 199
+    //   Serial.println(" -> light touch");
+    // else if (analogReading < 500) // from 200 to 499
+    //   Serial.println(" -> light squeeze");
+    // else if (analogReading < 800) // from 500 to 799
+    //   Serial.println(" -> medium squeeze");
+    // else // from 800 to 1023
+    //   Serial.println(" -> big squeeze");
 
     client.loop();
     String data = "{\"timestamp\":" + String(millis()) + ",\"force\":" + String(105) + "}"; //analogReading
     client.sendTXT(data);
 
     delay(1000);
-
-    client.poll();
 }

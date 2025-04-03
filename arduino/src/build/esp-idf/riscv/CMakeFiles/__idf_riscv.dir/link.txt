@@ -1,0 +1,2 @@
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc libriscv.a CMakeFiles/__idf_riscv.dir/instruction_decode.c.obj CMakeFiles/__idf_riscv.dir/interrupt.c.obj CMakeFiles/__idf_riscv.dir/vectors.S.obj
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib libriscv.a

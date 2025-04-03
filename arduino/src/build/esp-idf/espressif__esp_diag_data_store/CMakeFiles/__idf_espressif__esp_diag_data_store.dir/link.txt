@@ -1,0 +1,2 @@
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc libespressif__esp_diag_data_store.a CMakeFiles/__idf_espressif__esp_diag_data_store.dir/src/esp_diag_data_store.c.obj CMakeFiles/__idf_espressif__esp_diag_data_store.dir/src/rtc_store/rtc_store.c.obj
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib libespressif__esp_diag_data_store.a

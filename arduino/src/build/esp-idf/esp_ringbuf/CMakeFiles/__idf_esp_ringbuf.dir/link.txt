@@ -1,0 +1,2 @@
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc libesp_ringbuf.a CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.obj
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib libesp_ringbuf.a

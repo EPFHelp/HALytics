@@ -1,0 +1,130 @@
+-- Existing sdkconfig '/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/sdkconfig' renamed to '/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/sdkconfig.old'.
+-- Found Git: /usr/bin/git (found version "2.39.5 (Apple Git-154)")
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32c6
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: 
+Following dependencies have new versions available:
+Dependency "espressif/arduino-esp32": "3.0.0" -> "3.0.7"
+Consider running "idf.py update-dependencies" to update your lock file.
+NOTICE: Processing 24 dependencies:
+NOTICE: [1/24] chmorgan/esp-libhelix-mp3 (1.0.3)
+NOTICE: [2/24] espressif/arduino-esp32 (3.0.0)
+NOTICE: [3/24] espressif/cbor (0.6.0~1)
+NOTICE: [4/24] espressif/esp-dsp (1.5.2)
+NOTICE: [5/24] espressif/esp-serial-flasher (0.0.11)
+NOTICE: [6/24] espressif/esp-zboss-lib (1.6.4)
+NOTICE: [7/24] espressif/esp-zigbee-lib (1.6.4)
+NOTICE: [8/24] espressif/esp_diag_data_store (1.0.2)
+NOTICE: [9/24] espressif/esp_diagnostics (1.2.1)
+NOTICE: [10/24] espressif/esp_insights (1.2.4)
+NOTICE: [11/24] espressif/esp_modem (1.4.0)
+NOTICE: [12/24] espressif/esp_rainmaker (1.5.3)
+NOTICE: [13/24] espressif/esp_rcp_update (1.2.0)
+NOTICE: [14/24] espressif/esp_schedule (1.2.0)
+NOTICE: [15/24] espressif/esp_secure_cert_mgr (2.5.0)
+NOTICE: [16/24] espressif/jsmn (1.1.0)
+NOTICE: [17/24] espressif/json_generator (1.1.2)
+NOTICE: [18/24] espressif/json_parser (1.0.3)
+NOTICE: [19/24] espressif/mdns (1.8.2)
+NOTICE: [20/24] espressif/network_provisioning (1.0.5)
+NOTICE: [21/24] espressif/qrcode (0.1.0~2)
+NOTICE: [22/24] espressif/rmaker_common (1.4.6)
+NOTICE: [23/24] joltwallet/littlefs (1.19.1)
+NOTICE: [24/24] idf (5.1.4)
+NOTICE: Skipping optional dependency: espressif/esp-sr
+-- Project sdkconfig file /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/sdkconfig
+Loading defaults file /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/sdkconfig.defaults...
+Loading defaults file /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/sdkconfig.defaults.esp32c6...
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/sdkconfig.defaults.esp32c6:71 CONFIG_BT_NIMBLE_HCI_EVT_BUF_SIZE was replaced with CONFIG_BT_NIMBLE_TRANSPORT_EVT_SIZE
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/rodriguedeguerre/.espressif/python_env/idf5.1_py3.12_env/bin/python (found version "3.13.1") found components: Interpreter
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "main" version: a2087f2-dirty
+-- Adding linker script /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_system/ld/esp32c6/sections.ld.in
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.api.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.rvfp.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.version.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.phy.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.coexist.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.net80211.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.pp.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.wdt.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib-normal.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.heap.ld
+-- Adding linker script /Users/rodriguedeguerre/esp/esp-idf/components/soc/esp32c6/ld/esp32c6.peripherals.ld
+-- Components: app_trace app_update arduinoWebSockets bootloader bootloader_support bt chmorgan__esp-libhelix-mp3 cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__arduino-esp32 espressif__cbor espressif__esp-dsp espressif__esp-serial-flasher espressif__esp-zboss-lib espressif__esp-zigbee-lib espressif__esp_diag_data_store espressif__esp_diagnostics espressif__esp_insights espressif__esp_modem espressif__esp_rainmaker espressif__esp_rcp_update espressif__esp_schedule espressif__esp_secure_cert_mgr espressif__jsmn espressif__json_generator espressif__json_parser espressif__mdns espressif__network_provisioning espressif__qrcode espressif__rmaker_common esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 joltwallet__littlefs json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table protobuf-c protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: /Users/rodriguedeguerre/esp/esp-idf/components/app_trace /Users/rodriguedeguerre/esp/esp-idf/components/app_update /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/components/arduinoWebSockets /Users/rodriguedeguerre/esp/esp-idf/components/bootloader /Users/rodriguedeguerre/esp/esp-idf/components/bootloader_support /Users/rodriguedeguerre/esp/esp-idf/components/bt /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/chmorgan__esp-libhelix-mp3 /Users/rodriguedeguerre/esp/esp-idf/components/cmock /Users/rodriguedeguerre/esp/esp-idf/components/console /Users/rodriguedeguerre/esp/esp-idf/components/cxx /Users/rodriguedeguerre/esp/esp-idf/components/driver /Users/rodriguedeguerre/esp/esp-idf/components/efuse /Users/rodriguedeguerre/esp/esp-idf/components/esp-tls /Users/rodriguedeguerre/esp/esp-idf/components/esp_adc /Users/rodriguedeguerre/esp/esp-idf/components/esp_app_format /Users/rodriguedeguerre/esp/esp-idf/components/esp_coex /Users/rodriguedeguerre/esp/esp-idf/components/esp_common /Users/rodriguedeguerre/esp/esp-idf/components/esp_eth /Users/rodriguedeguerre/esp/esp-idf/components/esp_event /Users/rodriguedeguerre/esp/esp-idf/components/esp_gdbstub /Users/rodriguedeguerre/esp/esp-idf/components/esp_hid /Users/rodriguedeguerre/esp/esp-idf/components/esp_http_client /Users/rodriguedeguerre/esp/esp-idf/components/esp_http_server /Users/rodriguedeguerre/esp/esp-idf/components/esp_https_ota /Users/rodriguedeguerre/esp/esp-idf/components/esp_https_server /Users/rodriguedeguerre/esp/esp-idf/components/esp_hw_support /Users/rodriguedeguerre/esp/esp-idf/components/esp_lcd /Users/rodriguedeguerre/esp/esp-idf/components/esp_local_ctrl /Users/rodriguedeguerre/esp/esp-idf/components/esp_mm /Users/rodriguedeguerre/esp/esp-idf/components/esp_netif /Users/rodriguedeguerre/esp/esp-idf/components/esp_netif_stack /Users/rodriguedeguerre/esp/esp-idf/components/esp_partition /Users/rodriguedeguerre/esp/esp-idf/components/esp_phy /Users/rodriguedeguerre/esp/esp-idf/components/esp_pm /Users/rodriguedeguerre/esp/esp-idf/components/esp_psram /Users/rodriguedeguerre/esp/esp-idf/components/esp_ringbuf /Users/rodriguedeguerre/esp/esp-idf/components/esp_rom /Users/rodriguedeguerre/esp/esp-idf/components/esp_system /Users/rodriguedeguerre/esp/esp-idf/components/esp_timer /Users/rodriguedeguerre/esp/esp-idf/components/esp_wifi /Users/rodriguedeguerre/esp/esp-idf/components/espcoredump /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32 /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__cbor /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp-dsp /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp-serial-flasher /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp-zboss-lib /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp-zigbee-lib /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp_diag_data_store /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp_diagnostics /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp_insights /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp_modem /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp_rainmaker /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp_rcp_update /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp_schedule /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__esp_secure_cert_mgr /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__jsmn /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__json_generator /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__json_parser /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__mdns /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__network_provisioning /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__qrcode /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__rmaker_common /Users/rodriguedeguerre/esp/esp-idf/components/esptool_py /Users/rodriguedeguerre/esp/esp-idf/components/fatfs /Users/rodriguedeguerre/esp/esp-idf/components/freertos /Users/rodriguedeguerre/esp/esp-idf/components/hal /Users/rodriguedeguerre/esp/esp-idf/components/heap /Users/rodriguedeguerre/esp/esp-idf/components/http_parser /Users/rodriguedeguerre/esp/esp-idf/components/idf_test /Users/rodriguedeguerre/esp/esp-idf/components/ieee802154 /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/joltwallet__littlefs /Users/rodriguedeguerre/esp/esp-idf/components/json /Users/rodriguedeguerre/esp/esp-idf/components/log /Users/rodriguedeguerre/esp/esp-idf/components/lwip /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/main /Users/rodriguedeguerre/esp/esp-idf/components/mbedtls /Users/rodriguedeguerre/esp/esp-idf/components/mqtt /Users/rodriguedeguerre/esp/esp-idf/components/newlib /Users/rodriguedeguerre/esp/esp-idf/components/nvs_flash /Users/rodriguedeguerre/esp/esp-idf/components/openthread /Users/rodriguedeguerre/esp/esp-idf/components/partition_table /Users/rodriguedeguerre/esp/esp-idf/components/protobuf-c /Users/rodriguedeguerre/esp/esp-idf/components/protocomm /Users/rodriguedeguerre/esp/esp-idf/components/pthread /Users/rodriguedeguerre/esp/esp-idf/components/riscv /Users/rodriguedeguerre/esp/esp-idf/components/sdmmc /Users/rodriguedeguerre/esp/esp-idf/components/soc /Users/rodriguedeguerre/esp/esp-idf/components/spi_flash /Users/rodriguedeguerre/esp/esp-idf/components/spiffs /Users/rodriguedeguerre/esp/esp-idf/components/tcp_transport /Users/rodriguedeguerre/esp/esp-idf/components/ulp /Users/rodriguedeguerre/esp/esp-idf/components/unity /Users/rodriguedeguerre/esp/esp-idf/components/usb /Users/rodriguedeguerre/esp/esp-idf/components/vfs /Users/rodriguedeguerre/esp/esp-idf/components/wear_levelling /Users/rodriguedeguerre/esp/esp-idf/components/wifi_provisioning /Users/rodriguedeguerre/esp/esp-idf/components/wpa_supplicant
+-- Configuring done (6.5s)
+-- Generating done (0.8s)
+-- Build files have been written to: /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/build

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/build/rmaker_claim_service_server.crt.S
+
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/build/rmaker_mqtt_server.crt.S
+
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/build/rmaker_ota_server.crt.S
+

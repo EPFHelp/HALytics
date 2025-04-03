@@ -1,0 +1,7 @@
+[  0%] Built target custom_bundle
+[  0%] Generating memory.ld linker script...
+Partition table CSV /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/partitions.csv does not exist.
+[  0%] Generating project_elf_src_esp32c6.c
+Either change partition table in menuconfig or create this input file.
+[  0%] Built target _project_elf_src
+[  0%] Built target memory_ld

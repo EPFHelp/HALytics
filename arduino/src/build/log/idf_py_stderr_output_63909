@@ -1,0 +1,17 @@
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/main/main.cpp:50:28: error: expected initializer before 'PROGMEM'
+   50 | const char ngrok_ca_cert[] PROGMEM = \
+      |                            ^~~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/main/main.cpp: In function 'void setup()':
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/main/main.cpp:152:5: error: 'Serial' was not declared in this scope
+  152 |     Serial.begin(115200);
+      |     ^~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/main/main.cpp: In function 'void loop()':
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/main/main.cpp:188:5: error: 'Serial' was not declared in this scope
+  188 |     Serial.println("The force sensor value = ");
+      |     ^~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/main/main.cpp:204:5: error: 'delay' was not declared in this scope
+  204 |     delay(1000);
+      |     ^~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

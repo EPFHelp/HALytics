@@ -1,0 +1,15 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4200d618
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x4086c410,len:0xcf8
+load:0x4086e610,len:0x2e30
+load:0x40875728,len:0x113c
+entry 0x4086c410
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x4 (DOWNLOAD(USB/UART0/SDIO_FEI_FEO))
+Saved PC:0x4002b5c0
+waiting for download

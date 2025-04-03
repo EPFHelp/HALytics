@@ -1,0 +1,2 @@
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc libespressif__json_generator.a CMakeFiles/__idf_espressif__json_generator.dir/src/json_generator.c.obj
+/Users/rodriguedeguerre/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib libespressif__json_generator.a

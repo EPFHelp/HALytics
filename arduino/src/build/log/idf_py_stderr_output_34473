@@ -1,0 +1,63 @@
+CMake Warning at /Users/rodriguedeguerre/esp/esp-idf/components/partition_table/project_include.cmake:18 (message):
+  Partition table CSV file
+  /Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/partitions.csv
+  not found.  Change custom partition CSV path in menuconfig.
+Call Stack (most recent call first):
+  /Users/rodriguedeguerre/esp/esp-idf/tools/cmake/build.cmake:398 (include)
+  /Users/rodriguedeguerre/esp/esp-idf/tools/cmake/build.cmake:620 (__build_process_project_includes)
+  /Users/rodriguedeguerre/esp/esp-idf/tools/cmake/project.cmake:604 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
+Traceback (most recent call last):
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+    ~~~~^^
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/partitions.csv'
+Traceback (most recent call last):
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+    ~~~~^^
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/partitions.csv'
+Traceback (most recent call last):
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+    ~~~~^^
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/partitions.csv'
+Traceback (most recent call last):
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+    ~~~~^^
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/partitions.csv'
+Traceback (most recent call last):
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+    ~~~~^^
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/Users/rodriguedeguerre/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/partitions.csv'
+ESP Insights Project commit: a2087f2-dirty
+ESP RainMaker Project commit: a2087f2-dirty

@@ -1,0 +1,16 @@
+ESP Insights Project commit: a2087f2-dirty
+ESP RainMaker Project commit: a2087f2-dirty
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp: In member function 'bool ETHClass::beginSPI(eth_phy_type_t, int32_t, uint8_t*, int, int, int, SPIClass*, int, int, int, spi_host_device_t, uint8_t)':
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp:573:20: warning: unused variable 'eth_mac_config' [-Wunused-variable]
+  573 |   eth_mac_config_t eth_mac_config = ETH_MAC_DEFAULT_CONFIG();
+      |                    ^~~~~~~~~~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp:574:20: warning: variable 'phy_config' set but not used [-Wunused-but-set-variable]
+  574 |   eth_phy_config_t phy_config = ETH_PHY_DEFAULT_CONFIG();
+      |                    ^~~~~~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp: At global scope:
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp:364:18: warning: 'esp_err_t _eth_spi_deinit(void*)' defined but not used [-Wunused-function]
+  364 | static esp_err_t _eth_spi_deinit(void *ctx) {
+      |                  ^~~~~~~~~~~~~~~
+/Users/rodriguedeguerre/Desktop/EPFHelp/HALytics/arduino/src/managed_components/espressif__arduino-esp32/libraries/Ethernet/src/ETH.cpp:360:14: warning: 'void* _eth_spi_init(const void*)' defined but not used [-Wunused-function]
+  360 | static void *_eth_spi_init(const void *ctx) {
+      |              ^~~~~~~~~~~~~
