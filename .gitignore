@@ -58,3 +58,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+# .env like (for arduino)
+secrets.h
